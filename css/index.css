@@ -10,4 +10,5 @@ body{background-image: url("imgs/d.jpg"); background-repeat:no-repeat center cen
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;}
-.text{margin-top:2em !important;}
+.text{margin-top:2em !important;} 
+.img-card{width:5em;height:10em !important;}
