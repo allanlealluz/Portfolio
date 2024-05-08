@@ -4,39 +4,78 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel='stylesheet' href='css/index.css'>
-    <link rel='icon' href='imgs/allone-removebg-preview (3).png'>
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>Allan - Web Developer</title>
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <title>Allan</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Favicon -->
+    <link rel="icon" href="imgs/allone-removebg-preview (3).png">
 </head>
 <body>
-        <nav class="navbar bg-light">
-            <a href = 'resume.html' class='navtext'>Resume</a>
-            <a href="" class='navtext'>Home</a>
-            <a class="nav-link"href='https://www.codewars.com/users/allanlealluz'><img src='imgs/codewars.png'></a>   
-            <a class="nav-link"href='https://www.linkedin.com/in/allan-leal-a19582196/'><i class='fab fa-linkedin'></i></a>
-            <a class="nav-link" href='https://github.com/allanlealluz'><i class='fab fa-github'></i></a>
-        </nav>
-    <div class="container-fluid" style=' background-image: url("imgs/bannemr.jpg"); background-repeat:no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover'>
-    <div class="row">
-    <div class='col-sm'>
-        <img style='background:black;border-radius:40%;border:1px solid black;' src='imgs/allone-removebg-preview (3) (1).png'>
-    </div>
-    <div class='col-sm'>
-        <h1 class='text-lg-center text-light text'>I'm <strong>Allan</strong></h1>
-        <p class='text-lg-center text-light'>Web developer, with a pasion for innovation. ocated in Brazil, looking for working around the globe</p>       
-    </div>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Allan</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="resume.html">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.codewars.com/users/allanlealluz">
+                            <img src="imgs/codewars.png" alt="Codewars Profile">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.linkedin.com/in/allan-leal-a19582196/">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/allanlealluz">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
- </div>
- </div>  
- <div class="container">
-     <h1 class='text-lg-center text-dark '>Resume</h1>
-     <p class='text-lg-center '>I've been studying coding since 2017, when I started taking a computer course, after that in 2018 I took another course, and in 2019 another, after that I started creating projects on my github, i took courses remotely for Stanford and Senai</p>
- </div>
+    <!-- Banner Section -->
+    <section class="banner">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm d-flex align-items-center justify-content-center">
+                    <img src="imgs/allone-removebg-preview (3) (1).png" alt="Allan" class="img-fluid profile-img">
+                </div>
+                <div class="col-sm d-flex flex-column align-items-center justify-content-center">
+                    <h1 class="text-center text-light">I'm <strong>Allan</strong></h1>
+                    <p class="text-center text-light">Web developer with a passion for innovation. Located in Brazil, looking for opportunities worldwide.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section class="resume">
+        <div class="container">
+            <h1 class="text-center">Resume</h1>
+            <p class="text-center">I've been studying coding since 2017. I took various courses and started creating projects on GitHub. Recently, I completed remote courses from Stanford and Senai.</p>
+        </div>
+    </section>
+
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
